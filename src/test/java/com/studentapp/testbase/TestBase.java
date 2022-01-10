@@ -1,0 +1,24 @@
+package com.studentapp.testbase;
+
+import com.studentapp.constants.Path;
+import com.studentapp.utils.PropertyReader;
+import io.restassured.RestAssured;
+import org.junit.BeforeClass;
+
+/**
+ * @author Anand Tripathi
+ * @project StudentApp-Serenity-week19
+ * @created 09/01/2022
+ */
+public class TestBase {
+
+    public static PropertyReader propertyReader;
+
+    @BeforeClass
+    public static void initialize(){
+        propertyReader = PropertyReader.getInstance();
+        RestAssured.baseURI = propertyReader.getProperty("baseUrl");
+        RestAssured.port = Integer.parseInt(propertyReader.getProperty("port"));
+        RestAssured.basePath = Path.STUDENT;
+    }
+}
