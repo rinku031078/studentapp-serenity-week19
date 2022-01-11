@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.studentapp.studentinfo.StudentCRUDTestWithSteps
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.028 sec - in com.studentapp.studentinfo.StudentCRUDTestWithSteps

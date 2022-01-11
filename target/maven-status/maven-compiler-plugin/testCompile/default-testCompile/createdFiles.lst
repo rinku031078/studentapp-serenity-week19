@@ -1,0 +1,4 @@
+com\studentapp\testbase\TestBase.class
+com\studentapp\AppTest.class
+com\studentapp\studentinfo\StudentCRUDTestWithSteps.class
+com\studentapp\studentinfo\TagsTest.class

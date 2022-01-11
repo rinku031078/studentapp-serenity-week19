@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Student CRUD test with steps","This will create new student","SUCCESS","2022-01-11T00:10:50.717Z[Europe/London]","0.0","7.96"
+"Student CRUD test with steps","Test002","SUCCESS","2022-01-11T00:10:58.712Z[Europe/London]","0.0","1.42"
+"Student CRUD test with steps","Update the user information and verify the updated information","SUCCESS","2022-01-11T00:11:00.141Z[Europe/London]","0.0","0.34"
+"Student CRUD test with steps","Delete the student and verify if the student is deleted!","SUCCESS","2022-01-11T00:11:00.480Z[Europe/London]","0.0","0.13"
